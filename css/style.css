@@ -1,0 +1,30 @@
+
+
+
+html,
+body,
+header,
+#intro {
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+body {
+    position: relative;
+}
+
+#intro {
+    background: url("https://i.pinimg.com/originals/75/c6/fd/75c6fd1fbd6f21a99fcb310c23bbd70e.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.top-nav-collapse {
+    background-color: #00838f;
+}
+
+.active {
+    color: red;
+}
